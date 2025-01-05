@@ -1,7 +1,7 @@
 CAreTaker Project
 
 The prevalence of Alzheimer’s and dementia underscores the critical need for innovative solutions to support affected individuals in their daily lives. 
-In this project, we introduce CAreTaker, an LLM based virtual assistant designed specifically for individuals grap- pling with these cognitive challenges. 
+In this project, we introduce CAreTaker, an LLM based virtual assistant designed specifically for individuals grappling with these cognitive challenges. 
 Leveraging state-of-the-art Generative Artificial Intelligence (GAI), CAreTaker offers three features 
 i) personalized emotional support, 
 ii) aids in daily tasks, and 
