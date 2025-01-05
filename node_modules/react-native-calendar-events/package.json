@@ -1,0 +1,54 @@
+{
+  "name": "react-native-calendar-events",
+  "version": "2.2.0",
+  "description": "React Native module for IOS Calendar Events",
+  "homepage": "https://github.com/wmcmahan/react-native-calendar-events",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wmcmahan/react-native-calendar-events.git"
+  },
+  "author": "Will McMahan",
+  "license": "MIT",
+  "keywords": [
+    "react-native",
+    "react-component",
+    "ios",
+    "android",
+    "eventkit",
+    "reminders",
+    "calendar-events"
+  ],
+  "main": "src",
+  "types": "src/index.d.ts",
+  "files": [
+    "android/",
+    "ios/",
+    "src/",
+    "package.json",
+    "RNCalendarEvents.podspec"
+  ],
+  "peerDependencies": {
+    "react-native": ">=0.60.0"
+  },
+  "scripts": {
+    "format": "prettier --write \"**/*.{md,json,js,css}\"",
+    "release": "npmpub",
+    "test": "echo \"Everything is awesome!\""
+  },
+  "devDependencies": {
+    "husky": "^4.0.0",
+    "lint-staged": "^10.0.0",
+    "npmpub": "^5.0.0",
+    "prettier": "^2.0.0"
+  },
+  "lint-staged": {
+    "*.{md,json,js,css}": [
+      "prettier --write"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
+}
